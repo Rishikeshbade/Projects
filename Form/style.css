@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("wp.jpg");
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+}
+.container{
+    width: 360px;
+    height: 400px;
+    background-color: rgb(47, 56, 56);
+    border-radius: 10px;
+    color: rgb(251, 245, 245);
+    opacity: .5;
+    visibility: visible;
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+form{
+    width: 300px;
+    margin-left: 20px;
+
+}
+
+form label{
+    display: flex;
+    margin-top: 15px;
+    font-size: 14px;
+
+}
+
+input[type="text"],input[type="email"]{
+    width: 100%;
+    padding: 3px;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+input[type = "radio"] + label{
+    display: inline-block;
+}
+
+select{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 2px;
+}
+
+.btn{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn:hover{
+    color: rgb(0, 221, 255);
+    background-color: white;
+}
